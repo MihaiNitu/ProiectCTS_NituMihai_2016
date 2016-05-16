@@ -1,0 +1,22 @@
+Pe piata telefoanelor Windows Phone exista un unic distribuitor.(Singleton)
+Clientii pot alege din mai multe modele de telefoane din familia Lumia.(Factory)
+Ei isi pot crea(configura) telefoanele setand diverse atribute dupa plac
+  gen culoare, termen garantie.(Builder)
+Preturile sunt in functie de gradul avut ca user (Chain of resp.)
+O comanda se opreste(Command) daca stocul este epuizat(state) si se reia(command)
+  cand stocul este plin(state).
+Firma accepta doar comandarea unui singur telefon de acelasi tip, astfel daca se aleg
+ 4 telefoane identice, in comanda se va afisa doar 1 (Flyweight)
+ La sfarsit se vor afisa toate datele.(Template)
+ 
+ 
+ Singleton
+ Factory
+ Builder
+ Chain of resp.
+ Command
+ Flyweight
+ State
+ Template
+ 
+ 
